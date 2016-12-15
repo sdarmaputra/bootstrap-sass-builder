@@ -1,0 +1,36 @@
+$icon-font-path: '../fonts/';
+
+$border-radius-base:        0px;
+$border-radius-large:       0px;
+$border-radius-small:       0px;
+
+$brand-primary:         #1F618D;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+$navbar-height:                    60px;
+$navbar-margin-bottom:             0px;
+$navbar-default-color:             #F4F6F6;
+$navbar-default-bg:                $brand-primary;
+$navbar-default-border:            transparent;
+
+// Navbar links
+$navbar-default-link-color:                #F9F9F9;
+$navbar-default-link-hover-color:          darken($navbar-default-bg, 5.5%);
+$navbar-default-link-hover-bg:             #F0F3F4;
+$navbar-default-link-active-color:         darken($navbar-default-bg, 5.5%);
+$navbar-default-link-active-bg:            #F0F3F4;
+$navbar-default-link-disabled-color:       #ccc;
+$navbar-default-link-disabled-bg:          transparent;
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color;
+$navbar-default-brand-hover-color:         $navbar-default-link-hover-color;
+$navbar-default-brand-hover-bg:            transparent;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           darken($navbar-default-bg, 6.5%);
+$navbar-default-toggle-icon-bar-bg:        $navbar-default-color;
+$navbar-default-toggle-border-color:       none;
